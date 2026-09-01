@@ -1,3 +1,11 @@
+#[[
+
+    CMakeLists.txt for cpp-oop-review project
+    This CMake configuration file sets up the build environment for the cpp-oop-review project.
+    It specifies the minimum required CMake version, checks for C++26 support, and defines the source files and executable target.
+]]
+
+
 # Minimum required CMake version for the upgraded baseline
 cmake_minimum_required(VERSION 4.3.1)
 
