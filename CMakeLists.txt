@@ -20,10 +20,16 @@ endif()
 # Source files
 set (SOURCES
     main.cpp
+        include/DomainTypes.h
+        include/DomainTypes.h
+        include/DomainTypes.h
+        include/DomainTypes.h
 )
 
 # Define the executable target
-add_executable(cpp-oop-review-1 ${SOURCES})
+add_executable(cpp-oop-review-1 ${SOURCES}
+        include/DomainTypes.h
+        include/DomainTypes.h)
 
 # Keep language settings and include paths target-scoped
 set_target_properties(cpp-oop-review-1 PROPERTIES
