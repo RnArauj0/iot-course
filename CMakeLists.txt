@@ -1,3 +1,11 @@
+#[[
+
+    CMakeLists.txt for cpp-oop-review project
+    This CMake configuration file sets up the build environment for the cpp-oop-review project.
+    It specifies the minimum required CMake version, checks for C++26 support, and defines the source files and executable target.
+]]
+
+
 # Minimum required CMake version for the upgraded baseline
 cmake_minimum_required(VERSION 4.3.1)
 
@@ -20,10 +28,20 @@ endif()
 # Source files
 set (SOURCES
     main.cpp
+        include/DomainTypes.h
+        include/DomainTypes.h
+        include/DomainTypes.h
+        include/DomainTypes.h
+        include/DomainTypes.h
+        src/Resource.cpp
+        src/Resource.cpp
+        src/Resource.cpp
 )
 
 # Define the executable target
-add_executable(cpp-oop-review-1 ${SOURCES})
+add_executable(cpp-oop-review-1 ${SOURCES}
+        include/DomainTypes.h
+        include/DomainTypes.h)
 
 # Keep language settings and include paths target-scoped
 set_target_properties(cpp-oop-review-1 PROPERTIES
