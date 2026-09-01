@@ -8,4 +8,4 @@ a brief description of what was modified, and any relevant notes or references.
 ### Added
 - Initial release of the project with core functionality and basic features.
 - added project documentation files including README.md and CHANGELOG.md.
-- Added documentation files like user stories, class diagrams, and Arquitecture design records.
+- Added documentation files like user stories, class diagrams, and Architecture design records.
