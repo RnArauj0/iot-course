@@ -1,6 +1,6 @@
-cmake_minimum_required(VERSION 4.3)
-project(cpp_oop_preview_1)
+cmake_minimum_required(VERSION 4.3.1)
+project(cpp-oop-review LANGUAGES CXX)
 
-set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD 26)
 
-add_executable(cpp_oop_preview_1 main.cpp)
+add_executable(cpp-oop-review main.cpp)
