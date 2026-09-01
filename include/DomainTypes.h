@@ -28,4 +28,4 @@ class ResourceUnits final {
     constexpr void consumeOne() noexcept { --units; }
 
 };
-#endif DOMAIN_TYPES_H
+#endif //DOMAIN_TYPES_H

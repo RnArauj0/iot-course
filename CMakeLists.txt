@@ -24,6 +24,9 @@ set (SOURCES
         include/DomainTypes.h
         include/DomainTypes.h
         include/DomainTypes.h
+        include/DomainTypes.h
+        src/Resource.cpp
+        src/Resource.cpp
 )
 
 # Define the executable target
